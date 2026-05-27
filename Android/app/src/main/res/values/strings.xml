@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Token监控</string>
+    <string name="notification_channel_name">Token余额监控</string>
+    <string name="notification_channel_desc">显示AI平台Token余额信息</string>
+    <string name="deepseek_api_key_hint">输入DeepSeek API Key</string>
+    <string name="mimo_api_key_hint">输入小米MiMo API Key</string>
+    <string name="save">保存</string>
+    <string name="refresh">刷新</string>
+    <string name="start_monitor">开始监控</string>
+    <string name="stop_monitor">停止监控</string>
+    <string name="balance_label">可用余额</string>
+    <string name="status_normal">正常</string>
+    <string name="status_low">余额不足</string>
+    <string name="not_configured">未配置API Key</string>
+    <string name="settings">设置</string>
+    <string name="platform_deepseek">DeepSeek</string>
+    <string name="platform_mimo">小米MiMo</string>
+    <string name="select_platform">选择平台</string>
+</resources>
