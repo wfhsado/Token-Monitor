@@ -1,0 +1,59 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A123456789012345678901234 /* TokenMonitorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A123456789012345678901235; };
+		A123456789012345678901236 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A123456789012345678901237; };
+		A123456789012345678901238 /* TokenService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A123456789012345678901239; };
+		A12345678901234567890123A /* KeychainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12345678901234567890123B; };
+		A12345678901234567890123C /* TokenWidgetExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12345678901234567890123D; };
+		A12345678901234567890123E /* TokenWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12345678901234567890123F; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A123456789012345678901235 /* TokenMonitorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenMonitorApp.swift; sourceTree = "<group>"; };
+		A123456789012345678901237 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A123456789012345678901239 /* TokenService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenService.swift; sourceTree = "<group>"; };
+		A12345678901234567890123B /* KeychainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainService.swift; sourceTree = "<group>"; };
+		A12345678901234567890123D /* TokenWidgetExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenWidgetExtension.swift; sourceTree = "<group>"; };
+		A12345678901234567890123F /* TokenWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenWidget.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		A123456789012345678901230 = {
+			isa = PBXGroup;
+			children = (
+				A123456789012345678901231,
+				A123456789012345678901234,
+			);
+			sourceTree = "<group>";
+		};
+		A123456789012345678901231 /* TokenMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				A123456789012345678901235,
+				A123456789012345678901237,
+				A123456789012345678901239,
+				A12345678901234567890123B,
+			);
+			path = TokenMonitor;
+			sourceTree = "<group>";
+		};
+		A123456789012345678901234 /* TokenWidget */ = {
+			isa = PBXGroup;
+			children = (
+				A12345678901234567890123D,
+				A12345678901234567890123F,
+			);
+			path = TokenWidget;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+	};
+	rootObject = A123456789012345678901230;
+}
